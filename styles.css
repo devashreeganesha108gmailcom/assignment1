@@ -1,0 +1,126 @@
+#ticket {
+    width: 100px;
+    height: 50px;
+}
+#rockon {
+    width: 50%;
+    height: 350px;
+    position: relative;
+}
+#pictures {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.jumbotron {
+    background-image: url(https://www.alternativenation.net/wp-content/uploads/2016/06/gnroriginalnewest.jpg);    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    min-height: 300px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.go {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.band-bio {
+    margin-top: 10px;
+}
+.venue {
+    text-decoration: none;
+}
+.nav-link {
+   color: black; 
+}
+.brick {
+    background-image: url(https://i.pinimg.com/236x/07/33/16/073316b9983e580eaa8746f1857c8bd9--painted-brick-walls-paint-brick.jpg);
+    height: 30%;
+}
+
+aside {
+    background-color: whitesmoke;
+}
+a {
+    text-decoration: none;
+}
+p {
+    font-family: Courier, monospace;
+}
+img {
+    width: 98%;
+    height: 100%;
+}
+img[id="signature"]{
+    width: 70%;
+    height: 80%;
+}
+iframe {
+    margin: 0;
+    padding: 0;
+    width: 98%;
+}
+table {
+    text-align: left;
+}
+h2 {
+    position: relative;
+    left: 40%;
+    display: block;
+}
+
+@media only screen and (max-width: 360px) {
+    .navbar-brand {
+        width: 100%;
+        text-align: center;
+    }
+    .navbar-nav {
+        width: 100%;
+        text-align: center;
+    }
+    #frontpagejumbotron{
+        margin-top: 175px;
+    }
+    #tour-info {
+        margin-top: 140px;
+    }
+    #pictures {
+        margin-top: 140px;
+    }
+}
+@media only screen and (max-width: 412px) {
+    .navbar-brand {
+        width: 100%;
+        text-align: center;
+    }
+    .navbar-nav {
+        width: 100%;
+        text-align: center;
+    }
+    #frontpagejumbotron{
+        margin-top: 175px;
+    }
+    #tour-info {
+        margin-top: 140px;
+    }
+    #pictures {
+        margin-top: 140px;
+    }
+}
+@media only screen and (max-width: 414px) {
+    .navbar-brand {
+        width: 100%;
+        text-align: center;
+    }
+    .navbar-nav {
+        width: 100%;
+        text-align: center;
+    }
+    #frontpagejumbotron{
+        margin-top: 175px;
+    }
+    #tour-info {
+        margin-top: 140px;
+    }
+    #pictures {
+        margin-top: 140px;
+    }
+}
