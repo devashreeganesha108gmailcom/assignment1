@@ -30,7 +30,7 @@
         <div id="frontpagejumbotron" class="row">
             <div class="jumbotron col-xs-12 col-sm-8 col-md-8 mb-1">
             </div>
-            <aside class="col-xs-12 m-0 col-sm-4 col-md-4 text-center d-flex align-items-center justify-content-center">
+            <aside id="getticketsnowfrontpage" class="col-xs-12 m-0 col-sm-4 col-md-4 text-center d-flex align-items-center justify-content-center">
                 <div class="row">
                     <div class="col-12 lead" style="font-size:32px; font-family: Bradley Hand, cursive;">Back in Vancouver after a long time</div>
                     <div class="col-12 lead" style="font-size:25px; font-family: Georgia; vertical-align:baseline;">
@@ -46,8 +46,8 @@
         </div>
     </header>
     <body>
-        <div class="container-fluid p-0 m-0">
-            <div class="row band-bio">
+        <div class="container-fluid p-0 m-0 band-bio">
+            <div class="row">
                 <div class="col-xs-12 col-md-6 ml-4">
                     <p>
                         BandStation has been at the heart of millions of fans all accross the world for almost 5 years now.
@@ -57,12 +57,12 @@
                 </div>
                 <div class="col-xs-12 col-md-5 text-center d-flex align-items-center justify-content-center">
                     <div class="row">
-                        <p class="col-12" style="font-family: American Typewriter, serif; font-weight: bold;">
+                        <p class="col-xs-12 col-sm-6" style="font-family: American Typewriter, serif; font-weight: bold;">
                             PERFORMING LIVE
                             <br>AT
                             <br>ROGERS ARENA
                         </p>
-                        <p id="seetourupdates" class="col-12" style="font-family: american-typewriter">
+                        <p id="seetourupdates" class="col-xs-12 col-sm-6">
                             <a href="tours.html" style="text-decoration: none; font-size: 30px;">SEE TOUR UPDATES</a>
                         </p>
                     </div>
@@ -70,7 +70,7 @@
             </div>
             <div class="row" style="font-family: American Typewriter, serif; font-weight: bold;">
                 <div class="col-xs-12 col-sm-8 m-sm-auto">
-                    <p class="text-justify text-center" style="font-size:1.9vw">Meet the Band</p>
+                    <p class="text-justify text-center" style="font-size:25px">Meet the Band</p>
                 </div>
             </div>
             <div class="row text-center">
@@ -131,14 +131,14 @@
             });
         $("#ticket").mouseover(function () {
             $("#ticket").animate({
-                height: '+=150px',
-                width: '+=150px'
+                height: '+=70px',
+                width: '+=70px'
             });
         }); 
         $("#ticket").mouseleave(function () {
             $("#ticket").animate({
-                height: '-=150px',
-                width: '-=150px'
+                height: '-=70px',
+                width: '-=70px'
             });
         });
         $("#seetourupdates").mouseover(function () {
